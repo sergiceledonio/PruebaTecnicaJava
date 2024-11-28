@@ -15,10 +15,12 @@ public class Main {
 
         // Si es par, mediante un bucle for imprimimos los pares descendientes hasta 0
         if(numero % 2 == 0) {
+            System.out.println("El numero introducido es par");
             for(int i = numero; i >= 0; i -= 2) {
                 System.out.println(i);
             }
         } else { // Si es impar, se imprime lo mismo pero hasta el 1
+            System.out.println("El numero introducido es impar");
             for(int i = numero; i >= 1; i -= 2) {
                 System.out.println(i);
             }
